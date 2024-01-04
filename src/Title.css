@@ -1,0 +1,13 @@
+.center-container {
+  padding-top: 10px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Karla', sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+p {
+  font-size: smaller;
+}

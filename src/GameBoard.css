@@ -1,0 +1,38 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.board button {
+  place-self: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+button.active {
+  background-color: red;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 13px;
+}

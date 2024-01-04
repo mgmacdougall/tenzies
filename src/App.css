@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  border: 1px solid black;
+  width: 380px;
+  max-height: 380px;
+  height: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.inner-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 320px;
+  margin-top: 25px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
