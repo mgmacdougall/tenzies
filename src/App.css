@@ -6,22 +6,103 @@ body {
   margin: 0;
 }
 
-.main-container {
-  border: 1px solid black;
-  width: 380px;
+.large-container {
+  max-width: 517px;
+  max-height: 512px;
+  height: 516px;
+  width: 512px;
+}
+
+.med-container {
+  max-width: 360px;
   max-height: 380px;
+  width: 360px;
   height: 380px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.die {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-black {
   background-color: black;
 }
 
-.inner-container {
-  margin-left: auto;
-  margin-right: auto;
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.small-container {
   width: 320px;
   height: 320px;
-  margin-top: 25px;
+  border-radius: 5px;
   background-color: #F5F5F5;
-  border-radius: 10px;
+}
+
+.playboard {
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.font-medium {
+  font-size: large;
+}
+
+.win-banner {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #0abb45;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+
+}
+
+.controls {
+  height: 2.5rem;
+  margin: 0 auto;
+}
+
+.roll-button {
+  height: 2rem;
+  font-size: large;
+  font-weight: bold;
+  background: lightgreen;
+  border-radius: 5px;
+}
+
+.roll-button:hover {
+
+  background: rgb(47, 141, 47);
+  color: whitesmoke;
 }
